@@ -1,4 +1,6 @@
 # coding: utf-8
+
+import os
 import nltk
 import random
 from sklearn.svm import LinearSVC
