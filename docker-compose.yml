@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  server:
+    image: boangri/skillbox-telegram-chat-bot
+    restart: always
+    working_dir: /usr/src/app
+    environment:
+      TOKEN: {put the token here}
